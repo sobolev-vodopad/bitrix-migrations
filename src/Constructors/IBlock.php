@@ -223,8 +223,6 @@ class IBlock
                 ->setListPageUrl($prefix)
                 ->setSectionPageUrl("$prefix#SECTION_CODE_PATH#/")
                 ->setDetailPageUrl("$prefix#SECTION_CODE_PATH#/#ELEMENT_CODE#/");
-
-            Logger::log('Рекомендуется сделать обязательными для заполнения символьный код элементов и разделов инфоблока.', Logger::COLOR_YELLOW);
         } else {
             $prefix = "#SITE_DIR#/#IBLOCK_TYPE_ID#";
             $this
