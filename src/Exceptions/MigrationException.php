@@ -6,5 +6,5 @@ use Exception;
 
 class MigrationException extends Exception
 {
-    protected $code = 255;
+    protected $code = 1;
 }
